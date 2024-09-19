@@ -57,18 +57,6 @@ Neste teste você deverá construir um pipeline de bioinformática usando lingua
   -  FreeBayes (https://github.com/freebayes/freebayes) para etapas de chamada de variantes. Será necessário enviar um parâmetro com o arquivo das regiões-alvo de interesse (``--target``) , para que ele não rode o algoritmo de detecção em todo o genoma humano.  Disponibilizamos o arquivo de regiões neste repositório em ``data``: ``BRCA.list``.
   - snpeff para anotação funcional das variantes (https://pcingola.github.io/SnpEff/)
 
-
-Etapa 3
----------
-
-Neste desafio , queremos entender seu conhecimento sobre análise e identificação de sequências de DNA. Temos 3 amostras recebidas de um laboratório que quer identificar devido a um surto local de algumas espécies de vírus. Necessitamos que você identifique quais vírus estão presentes nestas amostras. Para cada amostra responda as perguntas a seguir:
-
-Amostra_01. Qual vírus conseguiu identificar? Qual o seu genótipo? Descreva brevemente as etapas do pipeline utilizado.
-
-Amostra_02. Qual vírus conseguiu identificar? Qual o seu genótipo? Descreva brevemente as etapas do pipeline utilizado.
-
-Amostra_03. Qual vírus conseguiu identificar? Qual o seu genótipo? Descreva brevemente as etapas do pipeline utilizado.
-
   
 Resultados Esperados
 --------------------
@@ -77,8 +65,6 @@ Resultados Esperados
 - Vamos precisar que sejam enviados os arquivos: o VCF file (arquivo de variantes) e o arquivo anotado em formato VCF.
 
 - O arquivo QUESTION.txt preenchido com as respostas embaixo de cada quesito. 
-
-- Respostas da etapa 3 em um arquivo TXT que pode ser anexado na pasta `output`. 
 
 
 
