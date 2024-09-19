@@ -32,21 +32,18 @@ Nesta primeira etapa queremos avaliar seus conhecimentos teóricos sobre o tema 
 Etapa 2
 ---------
 
-Neste teste você deverá construir um pipeline de bioinformática usando linguagem do seu interesse (shell script, r , python, nextflow) para detecção e anotação de variantes oriundos de dados brutos de NGS DNASeq.  Os dados são de uma amostra de controle humano de sexo feminino. Neste teste você deverá desenvolver o pipeline seguindo as seguintes etapas:
+Neste teste você deverá construir um pipeline de bioinformática usando linguagem do seu interesse (shell script, r , python, nextflow (pode ser usado o nf-core também!) para detecção e anotação de variantes oriundos de dados brutos de NGS DNASeq.  Os dados são de uma amostra de controle humano de sexo feminino. Neste teste você deverá desenvolver o pipeline seguindo as seguintes etapas:
 
  - Alinhamento das sequências de DNA (FASTQs)
  - Chamada e detecção de variantes SNVs e INDELs
  - Anotação de Variantes
- 
 
-Instruções
-----------
 
 - Realize o fork deste projeto para que crie um espelho em seu repositório (ex: github.com/marcelcaraciolo/bioinfotest) github. Mais instruções de como fazer o fork [aqui](https://docs.github.com/pt/free-pro-team@latest/github/getting-started-with-github/fork-a-repo).
 
-- Os dados brutos das amostras se encontram on-line será necessário realizar o download das mesmas. Elas estão em formato FASTQ.gz. Instruções de como baixar os fastqs estão na pasta `data` - `data_files_download.sh`
+- Os dados brutos das amostras se encontram on-line será necessário realizar o download das mesmas. Elas estão em formato FASTQ.gz. Instruções de como baixar os fastqs estão no link que será encaminhado a você junto a este teste.
 
-- Coloque todo o código realizado dentro da pasta `code` e os resultados coloque numa pasta `output` (Arquivos BAM, SAM, VCF, Arquivo de respostas).
+- Coloque todo o código realizado dentro da pasta `code` e os resultados coloque numa pasta `output` (Arquivo VCF, Arquivo de respostas).
 
 - Há um questionário de perguntas dentro da pasta `output` com nome `QUESTION.txt` , responda as perguntas dentro do arquivo, salve e commit dentro do seu repositório quando concluído. Estas respostas são obrigatórias e farão parte de sua avaliação técnica.
 
@@ -59,15 +56,27 @@ Instruções
   -  BWA (http://bio-bwa.sourceforge.net/) para etapa de alinhamento
   -  FreeBayes (https://github.com/freebayes/freebayes) para etapas de chamada de variantes. Será necessário enviar um parâmetro com o arquivo das regiões-alvo de interesse (``--target``) , para que ele não rode o algoritmo de detecção em todo o genoma humano.  Disponibilizamos o arquivo de regiões neste repositório em ``data``: ``BRCA.list``.
   - snpeff para anotação funcional das variantes (https://pcingola.github.io/SnpEff/)
-  
- - Para agilizar o desenvolvimento, criamos um arquivo ``Dockerfile`` a partir do sistema docker (https://www.docker.com/) contendo os arquivos necessários para a prova e já com os programas instalados, se seguir por este caminho poderá economizar um enorme tempo! Para facilitar após instalar o docker criamos o arquivo ``run_test.sh``que ao ser executado no terminal, já realiza o build da imagem do Dockerfile e já faz um ssh com a máquina. Rode a partir do diretório `bioinfotest`.  Para baixar os arquivos de amostra e fasta do genoma humano versao 19, rode dentro da pasta `data`o comando `data_files_download.sh`
+
+
+Etapa 3
+---------
+
+Neste desafio , queremos entender seu conhecimento sobre análise e identificação de sequências de DNA. Temos 3 amostras recebidas de um laboratório que quer identificar devido a um surto local de algumas espécies de vírus. Necessitamos que você identifique quais vírus estão presentes nestas amostras. Para cada amostra responda as perguntas a seguir:
+
+Amostra_01. Qual vírus conseguiu identificar? Qual o seu genótipo? Descreva brevemente as etapas do pipeline utilizado.
+
+Amostra_02. Qual vírus conseguiu identificar? Qual o seu genótipo? Descreva brevemente as etapas do pipeline utilizado.
+
+Amostra_03. Qual vírus conseguiu identificar? Qual o seu genótipo? Descreva brevemente as etapas do pipeline utilizado.
 
   
 Resultados Esperados
 --------------------
 
-- Vamos precisar que sejam enviados os arquivos: BAM file com os alinhamentos, o BAI file (arquivo de índice), o VCF file (arquivo de variantes) e o arquivo anotado em formato VCF.
+- Vamos precisar que sejam enviados os arquivos: o VCF file (arquivo de variantes) e o arquivo anotado em formato VCF.
 
-- O arquivo QUESTION.txt dentro da pasta ``output`` preenchido com as respostas embaixo de cada quesito. 
+- O arquivo QUESTION.txt preenchido com as respostas embaixo de cada quesito. 
 
 - Para facilitar ao terminar o seu teste, commit todo o seu projeto no seu respositório forkeado (bifurcado) e nos envie o link do seu repositório junto a resposta do seu teste admissional.
+
+- Material de acesso às amostras enviaremos por email junto a este link de repositório.
