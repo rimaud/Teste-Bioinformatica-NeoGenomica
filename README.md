@@ -72,11 +72,14 @@ Amostra_03. Qual vírus conseguiu identificar? Qual o seu genótipo? Descreva br
   
 Resultados Esperados
 --------------------
+- Slides 4 no máximo contendo as respostas da etapa 1.
 
 - Vamos precisar que sejam enviados os arquivos: o VCF file (arquivo de variantes) e o arquivo anotado em formato VCF.
 
 - O arquivo QUESTION.txt preenchido com as respostas embaixo de cada quesito. 
 
-- Para facilitar ao terminar o seu teste, commit todo o seu projeto no seu respositório forkeado (bifurcado) e nos envie o link do seu repositório junto a resposta do seu teste admissional.
+- Respostas da etapa 3 em um arquivo TXT que pode ser anexado na pasta `output`. 
 
-- Material de acesso às amostras enviaremos por email junto a este link de repositório.
+
+
+- Para facilitar ao terminar o seu teste, commit todo o seu projeto no seu respositório forkeado (bifurcado) e nos envie o link do seu repositório junto a resposta do seu teste admissional.
