@@ -45,7 +45,7 @@ Neste teste você deverá construir um pipeline de bioinformática usando lingua
 
 - Coloque todo o código realizado dentro da pasta `code` e os resultados coloque numa pasta `output` (Arquivo VCF, Arquivo de respostas).
 
-- Há um questionário de perguntas dentro da pasta `output` com nome `QUESTION.txt` , responda as perguntas dentro do arquivo, salve e commit dentro do seu repositório quando concluído. Estas respostas são obrigatórias e farão parte de sua avaliação técnica.
+- Há um questionário de perguntas dentro da pasta `code` com nome `QUESTION.txt` , responda as perguntas dentro do arquivo, salve e commit dentro do seu repositório quando concluído. Estas respostas são obrigatórias e farão parte de sua avaliação técnica.
 
 - Não vamos precisar executar o código aqui localmente do seu pipeline, mas vamos querer ver como você realizou todo o processo desde o alinhamento até a chamada de variantes, portanto fica claro que não serão aceitas soluções em plataformas on-line automatizadas de pipeline como Galaxy, etc. O seu código pode ser colocado em um ou mais arquivos, fica à seu critério de como organizar o código do pipeline.
 
