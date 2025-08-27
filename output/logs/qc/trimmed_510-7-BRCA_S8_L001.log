@@ -1,0 +1,45 @@
+Read1 before filtering:
+total reads: 64276
+total bases: 8626127
+Q20 bases: 8548348(99.0983%)
+Q30 bases: 8524913(98.8267%)
+Q40 bases: 59898(0.694379%)
+
+Read2 before filtering:
+total reads: 64276
+total bases: 8628461
+Q20 bases: 8515817(98.6945%)
+Q30 bases: 8484704(98.3339%)
+Q40 bases: 38903(0.450868%)
+
+Read1 after filtering:
+total reads: 64218
+total bases: 8037534
+Q20 bases: 7967179(99.1247%)
+Q30 bases: 7950394(98.9158%)
+Q40 bases: 59877(0.744967%)
+
+Read2 after filtering:
+total reads: 64218
+total bases: 8037287
+Q20 bases: 7938483(98.7707%)
+Q30 bases: 7916715(98.4998%)
+Q40 bases: 38896(0.483944%)
+
+Filtering result:
+reads passed filter: 128436
+reads failed due to low quality: 116
+reads failed due to too many N: 0
+reads failed due to too short: 0
+reads with adapter trimmed: 46862
+bases trimmed due to adapters: 8543
+
+Duplication rate: 3.13025%
+
+Insert size peak (evaluated by paired-end reads): 122
+
+JSON report: output/qc/fastp/510-7-BRCA_S8_L001_fastp.json
+HTML report: output/qc/fastp/510-7-BRCA_S8_L001_fastp.html
+
+fastp -i data/samples/510-7-BRCA_S8_L001_R1_001.fastq.gz -I data/samples/510-7-BRCA_S8_L001_R2_001.fastq.gz -o output/qc/trimmed/510-7-BRCA_S8_L001_R1_001.fastq.gz -O output/qc/trimmed/510-7-BRCA_S8_L001_R2_001.fastq.gz -h output/qc/fastp/510-7-BRCA_S8_L001_fastp.html -j output/qc/fastp/510-7-BRCA_S8_L001_fastp.json -w 20 --trim_front1 9 --trim_front2 9 
+fastp v1.0.1, time used: 1 seconds

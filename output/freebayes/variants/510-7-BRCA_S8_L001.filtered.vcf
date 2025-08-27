@@ -1,0 +1,175 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##fileDate=20250826
+##source=freeBayes v1.3.10
+##reference=data/reference/hg19.fasta
+##contig=<ID=chrM,length=16571>
+##contig=<ID=chr1,length=249250621>
+##contig=<ID=chr2,length=243199373>
+##contig=<ID=chr3,length=198022430>
+##contig=<ID=chr4,length=191154276>
+##contig=<ID=chr5,length=180915260>
+##contig=<ID=chr6,length=171115067>
+##contig=<ID=chr7,length=159138663>
+##contig=<ID=chr8,length=146364022>
+##contig=<ID=chr9,length=141213431>
+##contig=<ID=chr10,length=135534747>
+##contig=<ID=chr11,length=135006516>
+##contig=<ID=chr12,length=133851895>
+##contig=<ID=chr13,length=115169878>
+##contig=<ID=chr14,length=107349540>
+##contig=<ID=chr15,length=102531392>
+##contig=<ID=chr16,length=90354753>
+##contig=<ID=chr17,length=81195210>
+##contig=<ID=chr18,length=78077248>
+##contig=<ID=chr19,length=59128983>
+##contig=<ID=chr20,length=63025520>
+##contig=<ID=chr21,length=48129895>
+##contig=<ID=chr22,length=51304566>
+##contig=<ID=chrX,length=155270560>
+##contig=<ID=chrY,length=59373566>
+##contig=<ID=chr1_gl000191_random,length=106433>
+##contig=<ID=chr1_gl000192_random,length=547496>
+##contig=<ID=chr4_ctg9_hap1,length=590426>
+##contig=<ID=chr4_gl000193_random,length=189789>
+##contig=<ID=chr4_gl000194_random,length=191469>
+##contig=<ID=chr6_apd_hap1,length=4622290>
+##contig=<ID=chr6_cox_hap2,length=4795371>
+##contig=<ID=chr6_dbb_hap3,length=4610396>
+##contig=<ID=chr6_mann_hap4,length=4683263>
+##contig=<ID=chr6_mcf_hap5,length=4833398>
+##contig=<ID=chr6_qbl_hap6,length=4611984>
+##contig=<ID=chr6_ssto_hap7,length=4928567>
+##contig=<ID=chr7_gl000195_random,length=182896>
+##contig=<ID=chr8_gl000196_random,length=38914>
+##contig=<ID=chr8_gl000197_random,length=37175>
+##contig=<ID=chr9_gl000198_random,length=90085>
+##contig=<ID=chr9_gl000199_random,length=169874>
+##contig=<ID=chr9_gl000200_random,length=187035>
+##contig=<ID=chr9_gl000201_random,length=36148>
+##contig=<ID=chr11_gl000202_random,length=40103>
+##contig=<ID=chr17_ctg5_hap1,length=1680828>
+##contig=<ID=chr17_gl000203_random,length=37498>
+##contig=<ID=chr17_gl000204_random,length=81310>
+##contig=<ID=chr17_gl000205_random,length=174588>
+##contig=<ID=chr17_gl000206_random,length=41001>
+##contig=<ID=chr18_gl000207_random,length=4262>
+##contig=<ID=chr19_gl000208_random,length=92689>
+##contig=<ID=chr19_gl000209_random,length=159169>
+##contig=<ID=chr21_gl000210_random,length=27682>
+##contig=<ID=chrUn_gl000211,length=166566>
+##contig=<ID=chrUn_gl000212,length=186858>
+##contig=<ID=chrUn_gl000213,length=164239>
+##contig=<ID=chrUn_gl000214,length=137718>
+##contig=<ID=chrUn_gl000215,length=172545>
+##contig=<ID=chrUn_gl000216,length=172294>
+##contig=<ID=chrUn_gl000217,length=172149>
+##contig=<ID=chrUn_gl000218,length=161147>
+##contig=<ID=chrUn_gl000219,length=179198>
+##contig=<ID=chrUn_gl000220,length=161802>
+##contig=<ID=chrUn_gl000221,length=155397>
+##contig=<ID=chrUn_gl000222,length=186861>
+##contig=<ID=chrUn_gl000223,length=180455>
+##contig=<ID=chrUn_gl000224,length=179693>
+##contig=<ID=chrUn_gl000225,length=211173>
+##contig=<ID=chrUn_gl000226,length=15008>
+##contig=<ID=chrUn_gl000227,length=128374>
+##contig=<ID=chrUn_gl000228,length=129120>
+##contig=<ID=chrUn_gl000229,length=19913>
+##contig=<ID=chrUn_gl000230,length=43691>
+##contig=<ID=chrUn_gl000231,length=27386>
+##contig=<ID=chrUn_gl000232,length=40652>
+##contig=<ID=chrUn_gl000233,length=45941>
+##contig=<ID=chrUn_gl000234,length=40531>
+##contig=<ID=chrUn_gl000235,length=34474>
+##contig=<ID=chrUn_gl000236,length=41934>
+##contig=<ID=chrUn_gl000237,length=45867>
+##contig=<ID=chrUn_gl000238,length=39939>
+##contig=<ID=chrUn_gl000239,length=33824>
+##contig=<ID=chrUn_gl000240,length=41933>
+##contig=<ID=chrUn_gl000241,length=42152>
+##contig=<ID=chrUn_gl000242,length=43523>
+##contig=<ID=chrUn_gl000243,length=43341>
+##contig=<ID=chrUn_gl000244,length=39929>
+##contig=<ID=chrUn_gl000245,length=36651>
+##contig=<ID=chrUn_gl000246,length=38154>
+##contig=<ID=chrUn_gl000247,length=36422>
+##contig=<ID=chrUn_gl000248,length=39786>
+##contig=<ID=chrUn_gl000249,length=38502>
+##phasing=none
+##commandline="freebayes --fasta-reference data/reference/hg19.fasta --targets data/BRCA/BRCA.bed --bam output/bwa/marked/510-7-BRCA_S8_L001.bam --min-mapping-quality 30 --min-base-quality 20 --min-alternate-count 5 --min-alternate-fraction 0.2 --ploidy 2 --use-best-n-alleles 4"
+##INFO=<ID=NS,Number=1,Type=Integer,Description="Number of samples with data">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Total read depth at the locus">
+##INFO=<ID=DPB,Number=1,Type=Float,Description="Total read depth per bp at the locus; bases in reads overlapping / bases in haplotype">
+##INFO=<ID=AC,Number=A,Type=Integer,Description="Total number of alternate alleles in called genotypes">
+##INFO=<ID=AN,Number=1,Type=Integer,Description="Total number of alleles in called genotypes">
+##INFO=<ID=AF,Number=A,Type=Float,Description="Estimated allele frequency in the range (0,1]">
+##INFO=<ID=RO,Number=1,Type=Integer,Description="Count of full observations of the reference haplotype.">
+##INFO=<ID=AO,Number=A,Type=Integer,Description="Count of full observations of this alternate haplotype.">
+##INFO=<ID=PRO,Number=1,Type=Float,Description="Reference allele observation count, with partial observations recorded fractionally">
+##INFO=<ID=PAO,Number=A,Type=Float,Description="Alternate allele observations, with partial observations recorded fractionally">
+##INFO=<ID=QR,Number=1,Type=Integer,Description="Reference allele quality sum in phred">
+##INFO=<ID=QA,Number=A,Type=Integer,Description="Alternate allele quality sum in phred">
+##INFO=<ID=PQR,Number=1,Type=Float,Description="Reference allele quality sum in phred for partial observations">
+##INFO=<ID=PQA,Number=A,Type=Float,Description="Alternate allele quality sum in phred for partial observations">
+##INFO=<ID=SRF,Number=1,Type=Integer,Description="Number of reference observations on the forward strand">
+##INFO=<ID=SRR,Number=1,Type=Integer,Description="Number of reference observations on the reverse strand">
+##INFO=<ID=SAF,Number=A,Type=Integer,Description="Number of alternate observations on the forward strand">
+##INFO=<ID=SAR,Number=A,Type=Integer,Description="Number of alternate observations on the reverse strand">
+##INFO=<ID=SRP,Number=1,Type=Float,Description="Strand balance probability for the reference allele: Phred-scaled upper-bounds estimate of the probability of observing the deviation between SRF and SRR given E(SRF/SRR) ~ 0.5, derived using Hoeffding's inequality">
+##INFO=<ID=SAP,Number=A,Type=Float,Description="Strand balance probability for the alternate allele: Phred-scaled upper-bounds estimate of the probability of observing the deviation between SAF and SAR given E(SAF/SAR) ~ 0.5, derived using Hoeffding's inequality">
+##INFO=<ID=AB,Number=A,Type=Float,Description="Allele balance at heterozygous sites: a number between 0 and 1 representing the ratio of reads showing the reference allele to all reads, considering only reads from individuals called as heterozygous">
+##INFO=<ID=ABP,Number=A,Type=Float,Description="Allele balance probability at heterozygous sites: Phred-scaled upper-bounds estimate of the probability of observing the deviation between ABR and ABA given E(ABR/ABA) ~ 0.5, derived using Hoeffding's inequality">
+##INFO=<ID=RUN,Number=A,Type=Integer,Description="Run length: the number of consecutive repeats of the alternate allele in the reference genome">
+##INFO=<ID=RPP,Number=A,Type=Float,Description="Read Placement Probability: Phred-scaled upper-bounds estimate of the probability of observing the deviation between RPL and RPR given E(RPL/RPR) ~ 0.5, derived using Hoeffding's inequality">
+##INFO=<ID=RPPR,Number=1,Type=Float,Description="Read Placement Probability for reference observations: Phred-scaled upper-bounds estimate of the probability of observing the deviation between RPL and RPR given E(RPL/RPR) ~ 0.5, derived using Hoeffding's inequality">
+##INFO=<ID=RPL,Number=A,Type=Float,Description="Reads Placed Left: number of reads supporting the alternate balanced to the left (5') of the alternate allele">
+##INFO=<ID=RPR,Number=A,Type=Float,Description="Reads Placed Right: number of reads supporting the alternate balanced to the right (3') of the alternate allele">
+##INFO=<ID=EPP,Number=A,Type=Float,Description="End Placement Probability: Phred-scaled upper-bounds estimate of the probability of observing the deviation between EL and ER given E(EL/ER) ~ 0.5, derived using Hoeffding's inequality">
+##INFO=<ID=EPPR,Number=1,Type=Float,Description="End Placement Probability for reference observations: Phred-scaled upper-bounds estimate of the probability of observing the deviation between EL and ER given E(EL/ER) ~ 0.5, derived using Hoeffding's inequality">
+##INFO=<ID=DPRA,Number=A,Type=Float,Description="Alternate allele depth ratio.  Ratio between depth in samples with each called alternate allele and those without.">
+##INFO=<ID=ODDS,Number=1,Type=Float,Description="The log odds ratio of the best genotype combination to the second-best.">
+##INFO=<ID=GTI,Number=1,Type=Integer,Description="Number of genotyping iterations required to reach convergence or bailout.">
+##INFO=<ID=TYPE,Number=A,Type=String,Description="The type of allele, either snp, mnp, ins, del, or complex.">
+##INFO=<ID=CIGAR,Number=A,Type=String,Description="The extended CIGAR representation of each alternate allele, with the exception that '=' is replaced by 'M' to ease VCF parsing.  Note that INDEL alleles do not have the first matched base (which is provided by default, per the spec) referred to by the CIGAR.">
+##INFO=<ID=NUMALT,Number=1,Type=Integer,Description="Number of unique non-reference alleles in called genotypes at this position.">
+##INFO=<ID=MEANALT,Number=A,Type=Float,Description="Mean number of unique non-reference allele observations per sample with the corresponding alternate alleles.">
+##INFO=<ID=LEN,Number=A,Type=Integer,Description="allele length">
+##INFO=<ID=MQM,Number=A,Type=Float,Description="Mean mapping quality of observed alternate alleles">
+##INFO=<ID=MQMR,Number=1,Type=Float,Description="Mean mapping quality of observed reference alleles">
+##INFO=<ID=PAIRED,Number=A,Type=Float,Description="Proportion of observed alternate alleles which are supported by properly paired read fragments">
+##INFO=<ID=PAIREDR,Number=1,Type=Float,Description="Proportion of observed reference alleles which are supported by properly paired read fragments">
+##INFO=<ID=MIN_DP,Number=1,Type=Integer,Description="Minimum depth in gVCF output block.">
+##INFO=<ID=END,Number=1,Type=Integer,Description="Last position (inclusive) in gVCF output record.">
+##INFO=<ID=technology.ILLUMINA,Number=A,Type=Float,Description="Fraction of observations supporting the alternate observed in reads from ILLUMINA">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=GQ,Number=1,Type=Float,Description="Genotype Quality, the Phred-scaled marginal (or unconditional) probability of the called genotype">
+##FORMAT=<ID=GL,Number=G,Type=Float,Description="Genotype Likelihood, log10-scaled likelihoods of the data given the called genotype for each possible genotype generated from the reference and alternate alleles given the sample ploidy">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read Depth">
+##FORMAT=<ID=AD,Number=R,Type=Integer,Description="Number of observation for each allele">
+##FORMAT=<ID=RO,Number=1,Type=Integer,Description="Reference allele observation count">
+##FORMAT=<ID=QR,Number=1,Type=Integer,Description="Sum of quality of the reference observations">
+##FORMAT=<ID=AO,Number=A,Type=Integer,Description="Alternate allele observation count">
+##FORMAT=<ID=QA,Number=A,Type=Integer,Description="Sum of quality of the alternate observations">
+##FORMAT=<ID=MIN_DP,Number=1,Type=Integer,Description="Minimum depth in gVCF output block.">
+##bcftools_filterVersion=1.22+htslib-1.22.1
+##bcftools_filterCommand=filter -e 'QUAL<=20 || INFO/DP<=10 || AF[0]<=0.2' -o output/freebayes/variants/510-7-BRCA_S8_L001.filtered.vcf output/freebayes/variants/510-7-BRCA_S8_L001.vcf; Date=Tue Aug 26 19:35:25 2025
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	510-7-BRCA_S8_L001
+chr13	32890572	.	G	A	511.795	PASS	AB=0.583333;ABP=5.18177;AC=1;AF=0.5;AN=2;AO=21;CIGAR=1X;DP=36;DPB=36;DPRA=0;EPP=3.94093;EPPR=3.15506;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=60;NS=1;NUMALT=1;ODDS=74.6391;PAIRED=1;PAIREDR=1;PAO=0;PQA=0;PQR=0;PRO=0;QA=809;QR=577;RO=15;RPL=0;RPP=48.6112;RPPR=35.5824;RPR=21;RUN=1;SAF=9;SAP=3.94093;SAR=12;SRF=7;SRP=3.15506;SRR=8;TYPE=snp;technology.ILLUMINA=1	GT:DP:AD:RO:QR:AO:QA:GL	0/1:36:15,21:15:577:21:809:-62.2993,0,-41.436
+chr13	32899567	.	G	C	87.2976	PASS	AB=0.3;ABP=9.95901;AC=1;AF=0.5;AN=2;AO=6;CIGAR=1X;DP=20;DPB=20;DPRA=0;EPP=4.45795;EPPR=3.63072;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=60;NS=1;NUMALT=1;ODDS=20.101;PAIRED=1;PAIREDR=1;PAO=0;PQA=0;PQR=0;PRO=0;QA=232;QR=538;RO=14;RPL=6;RPP=16.0391;RPPR=33.4109;RPR=0;RUN=1;SAF=2;SAP=4.45795;SAR=4;SRF=8;SRP=3.63072;SRR=6;TYPE=snp;technology.ILLUMINA=1	GT:DP:AD:RO:QR:AO:QA:GL	0/1:20:14,6:14:538:6:232:-15.2283,0,-42.7449
+chr13	32905219	.	ATTTTTTTTTTTTGAG	ATTTTTTTTTTTGAG	879.971	PASS	AB=0.231579;ABP=121.916;AC=1;AF=0.5;AN=2;AO=44;CIGAR=1M1D14M;DP=190;DPB=186.875;DPRA=0;EPP=3.79993;EPPR=24.7051;GTI=0;LEN=1;MEANALT=10;MQM=60;MQMR=60;NS=1;NUMALT=1;ODDS=202.621;PAIRED=1;PAIREDR=1;PAO=0;PQA=0;PQR=0;PRO=0;QA=1662;QR=4039;RO=109;RPL=18;RPP=6.16881;RPPR=17.5333;RPR=26;RUN=1;SAF=10;SAP=31.4368;SAR=34;SRF=25;SRP=72.358;SRR=84;TYPE=del;technology.ILLUMINA=1	GT:DP:AD:RO:QR:AO:QA:GL	0/1:190:109,44:109:4039:44:1662:-103.419,0,-317.219
+chr13	32905265	.	G	A	5469.49	PASS	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=165;CIGAR=1X;DP=166;DPB=166;DPRA=0;EPP=11.2356;EPPR=5.18177;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=60;NS=1;NUMALT=1;ODDS=222.725;PAIRED=1;PAIREDR=1;PAO=0;PQA=0;PQR=0;PRO=0;QA=6358;QR=39;RO=1;RPL=110;RPP=42.8206;RPPR=5.18177;RPR=55;RUN=1;SAF=33;SAP=131.996;SAR=132;SRF=0;SRP=5.18177;SRR=1;TYPE=snp;technology.ILLUMINA=1	GT:DP:AD:RO:QR:AO:QA:GL	1/1:166:1,165:1:39:165:6358:-568.237,-46.0744,0
+chr13	32906729	.	A	C	6694.53	PASS	AB=0.497959;ABP=3.02803;AC=1;AF=0.5;AN=2;AO=244;CIGAR=1X;DP=490;DPB=490;DPRA=0;EPP=5.89373;EPPR=8.09472;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=60;NS=1;NUMALT=1;ODDS=1541.47;PAIRED=1;PAIREDR=1;PAO=0;PQA=0;PQR=0;PRO=0;QA=9413;QR=9533;RO=246;RPL=54;RPP=167.615;RPPR=117.728;RPR=190;RUN=1;SAF=85;SAP=51.7438;SAR=159;SRF=99;SRP=23.348;SRR=147;TYPE=snp;technology.ILLUMINA=1	GT:DP:AD:RO:QR:AO:QA:GL	0/1:490:246,244:246:9533:244:9413:-699.352,0,-710.128
+chr13	32911888	.	A	G	6466.77	PASS	AB=0.459615;ABP=10.3766;AC=1;AF=0.5;AN=2;AO=239;CIGAR=1X;DP=520;DPB=520;DPRA=0;EPP=46.2671;EPPR=119.922;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=60;NS=1;NUMALT=1;ODDS=1489.03;PAIRED=1;PAIREDR=0.996441;PAO=0;PQA=0;PQR=0;PRO=0;QA=9198;QR=10835;RO=281;RPL=170;RPP=95.6931;RPPR=21.5644;RPR=69;RUN=1;SAF=94;SAP=26.6421;SAR=145;SRF=119;SRP=17.2987;SRR=162;TYPE=snp;technology.ILLUMINA=1	GT:DP:AD:RO:QR:AO:QA:GL	0/1:520:281,239:281:10835:239:9198:-670.997,0,-818.203
+chr13	32913055	.	A	G	19974.7	PASS	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=589;CIGAR=1X;DP=591;DPB=591;DPRA=0;EPP=78.3998;EPPR=3.0103;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=60;NS=1;NUMALT=1;ODDS=797.562;PAIRED=1;PAIREDR=1;PAO=0;PQA=0;PQR=0;PRO=0;QA=22608;QR=78;RO=2;RPL=279;RPP=6.55323;RPPR=7.35324;RPR=310;RUN=1;SAF=402;SAP=173.428;SAR=187;SRF=1;SRP=3.0103;SRR=1;TYPE=snp;technology.ILLUMINA=1	GT:DP:AD:RO:QR:AO:QA:GL	1/1:591:2,589:2:78:589:22608:-2026.08,-170.505,0
+chr13	32915005	.	G	C	14311.4	PASS	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=422;CIGAR=1X;DP=422;DPB=422;DPRA=0;EPP=58.6659;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=589.621;PAIRED=1;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=16230;QR=0;RO=0;RPL=182;RPP=20.3203;RPPR=0;RPR=240;RUN=1;SAF=301;SAP=169.73;SAR=121;SRF=0;SRP=0;SRR=0;TYPE=snp;technology.ILLUMINA=1	GT:DP:AD:RO:QR:AO:QA:GL	1/1:422:0,422:0:0:422:16230:-1459.89,-127.035,0
+chr13	32915410	.	CAATTA	CA	1243.58	PASS	AB=0.360759;ABP=29.6177;AC=1;AF=0.5;AN=2;AO=57;CIGAR=1M4D1M;DP=158;DPB=120;DPRA=0;EPP=67.0497;EPPR=71.1077;GTI=0;LEN=4;MEANALT=2;MQM=60;MQMR=60;NS=1;NUMALT=1;ODDS=286.344;PAIRED=1;PAIREDR=1;PAO=0;PQA=0;PQR=0;PRO=0;QA=2194;QR=3822;RO=100;RPL=48;RPP=60.9543;RPPR=186.804;RPR=9;RUN=1;SAF=13;SAP=39.6206;SAR=44;SRF=22;SRP=71.1077;SRR=78;TYPE=del;technology.ILLUMINA=1	GT:DP:AD:RO:QR:AO:QA:GL	0/1:158:100,57:100:3822:57:2194:-150.043,0,-296.455
+chr13	32920844	.	T	C	1273.43	PASS	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=38;CIGAR=1X;DP=40;DPB=40;DPRA=0;EPP=6.66752;EPPR=0;GTI=0;LEN=1;MEANALT=2;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=57.2844;PAIRED=1;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=1457;QR=0;RO=0;RPL=24;RPP=8.7247;RPPR=0;RPR=14;RUN=1;SAF=21;SAP=3.9246;SAR=17;SRF=0;SRP=0;SRR=0;TYPE=snp;technology.ILLUMINA=1	GT:DP:AD:RO:QR:AO:QA:GL	1/1:40:0,38:0:0:38:1457:-131.026,-11.4391,0
+chr13	32929232	.	A	G	8554.92	PASS	AB=0.485039;ABP=4.24479;AC=1;AF=0.5;AN=2;AO=308;CIGAR=1X;DP=635;DPB=635;DPRA=0;EPP=5.83039;EPPR=3.6764;GTI=0;LEN=1;MEANALT=2;MQM=60;MQMR=60;NS=1;NUMALT=1;ODDS=1969.84;PAIRED=1;PAIREDR=1;PAO=0;PQA=0;PQR=0;PRO=0;QA=11768;QR=12450;RO=326;RPL=174;RPP=14.2907;RPPR=4.31585;RPR=134;RUN=1;SAF=122;SAP=31.8881;SAR=186;SRF=114;SRP=66.9821;SRR=212;TYPE=snp;technology.ILLUMINA=1	GT:DP:AD:RO:QR:AO:QA:GL	0/1:635:326,308:326:12450:308:11768:-867.439,0,-928.755
+chr13	32929387	.	T	C	24295.3	PASS	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=714;CIGAR=1X;DP=715;DPB=715;DPRA=0;EPP=6.12457;EPPR=5.18177;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=60;NS=1;NUMALT=1;ODDS=982.341;PAIRED=1;PAIREDR=1;PAO=0;PQA=0;PQR=0;PRO=0;QA=27571;QR=39;RO=1;RPL=433;RPP=73.276;RPPR=5.18177;RPR=281;RUN=1;SAF=190;SAP=342.283;SAR=524;SRF=0;SRP=5.18177;SRR=1;TYPE=snp;technology.ILLUMINA=1	GT:DP:AD:RO:QR:AO:QA:GL	1/1:715:1,714:1:39:714:27571:-2475.82,-211.34,0
+chr13	32936646	.	T	C	6033.96	PASS	AB=0.583799;ABP=24.8463;AC=1;AF=0.5;AN=2;AO=209;CIGAR=1X;DP=358;DPB=358;DPRA=0;EPP=9.50394;EPPR=12.1188;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=60;NS=1;NUMALT=1;ODDS=923.964;PAIRED=1;PAIREDR=1;PAO=0;PQA=0;PQR=0;PRO=0;QA=8089;QR=5784;RO=149;RPL=68;RPP=58.3777;RPPR=8.27138;RPR=141;RUN=1;SAF=120;SAP=12.9949;SAR=89;SRF=87;SRP=12.1188;SRR=62;TYPE=snp;technology.ILLUMINA=1	GT:DP:AD:RO:QR:AO:QA:GL	0/1:358:149,209:149:5784:209:8089:-620.007,0,-412.733
+chr13	32953388	.	T	C	7799.34	PASS	AB=0.468227;ABP=8.25379;AC=1;AF=0.5;AN=2;AO=280;CIGAR=1X;DP=598;DPB=598;DPRA=0;EPP=3.13438;EPPR=8.36387;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=60;NS=1;NUMALT=1;ODDS=1795.87;PAIRED=1;PAIREDR=1;PAO=0;PQA=0;PQR=0;PRO=0;QA=10871;QR=12342;RO=318;RPL=114;RPP=23.9805;RPPR=24.4246;RPR=166;RUN=1;SAF=190;SAP=80.5629;SAR=90;SRF=198;SRP=44.5551;SRR=120;TYPE=snp;technology.ILLUMINA=1	GT:DP:AD:RO:QR:AO:QA:GL	0/1:598:318,280:318:12342:280:10871:-797.925,0,-930.2
+chr13	32971425	.	T	C	5967.68	PASS	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=179;CIGAR=1X;DP=179;DPB=179;DPRA=0;EPP=67.6571;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=252.752;PAIRED=1;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=6926;QR=0;RO=0;RPL=53;RPP=67.6571;RPPR=0;RPR=126;RUN=1;SAF=133;SAP=94.8308;SAR=46;SRF=0;SRP=0;SRR=0;TYPE=snp;technology.ILLUMINA=1	GT:DP:AD:RO:QR:AO:QA:GL	1/1:179:0,179:0:0:179:6926:-623.203,-53.8844,0
+chr13	32971706	.	ATTTTTTTTTCTCA	ATTTTTTTTCTCA	4787.89	PASS	AB=0.573883;ABP=16.8077;AC=1;AF=0.5;AN=2;AO=167;CIGAR=1M1D12M;DP=291;DPB=279.286;DPRA=0;EPP=11.1371;EPPR=10.7656;GTI=0;LEN=1;MEANALT=8;MQM=60;MQMR=60;NS=1;NUMALT=1;ODDS=659.367;PAIRED=1;PAIREDR=1;PAO=1.5;PQA=54.5;PQR=54.5;PRO=1.5;QA=6381;QR=4239;RO=112;RPL=93;RPP=7.70432;RPPR=10.7656;RPR=74;RUN=1;SAF=74;SAP=7.70432;SAR=93;SRF=50;SRP=5.80219;SRR=62;TYPE=del;technology.ILLUMINA=1	GT:DP:AD:RO:QR:AO:QA:GL	0/1:291:112,167:112:4239:167:6381:-489.848,0,-297.235
+chr17	41222948	.	TTCTTCTGGGGTCAGGCCAGA	TA	4179.62	PASS	AB=0.318482;ABP=176.441;AC=1;AF=0.5;AN=2;AO=193;CIGAR=1M19D1M;DP=606;DPB=432.952;DPRA=0;EPP=8.96216;EPPR=7.56444;GTI=0;LEN=19;MEANALT=8;MQM=60;MQMR=60;NS=1;NUMALT=1;ODDS=962.393;PAIRED=1;PAIREDR=1;PAO=6.5;PQA=0;PQR=116;PRO=9.5;QA=7145;QR=15180;RO=401;RPL=39;RPP=151.807;RPPR=253.325;RPR=154;RUN=1;SAF=133;SAP=62.9677;SAR=60;SRF=262;SRP=84.936;SRR=139;TYPE=del;technology.ILLUMINA=1	GT:DP:AD:RO:QR:AO:QA:GL	0/1:606:401,193:401:15180:193:7145:-463.828,0,-1186.42
+chr17	41251931	.	G	A	426.39	PASS	AB=0.44186;ABP=4.27278;AC=1;AF=0.5;AN=2;AO=19;CIGAR=1X;DP=43;DPB=43;DPRA=0;EPP=3.12459;EPPR=8.80089;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=60;NS=1;NUMALT=1;ODDS=98.18;PAIRED=1;PAIREDR=1;PAO=0;PQA=0;PQR=0;PRO=0;QA=728;QR=924;RO=24;RPL=19;RPP=44.2683;RPPR=46.8017;RPR=0;RUN=1;SAF=10;SAP=3.12459;SAR=9;SRF=17;SRP=12.0581;SRR=7;TYPE=snp;technology.ILLUMINA=1	GT:DP:AD:RO:QR:AO:QA:GL	0/1:43:24,19:24:924:19:728:-52.9075,0,-70.5335

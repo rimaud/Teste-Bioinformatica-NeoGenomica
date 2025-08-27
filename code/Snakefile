@@ -1,0 +1,55 @@
+import os
+from snakemake.utils import min_version
+
+
+min_version("7.0")
+
+# Configuração
+configfile: "config.yaml"
+
+# Configurações globais
+SAMPLES = config["SAMPLES"]
+OUTDIR = config["OUTPUT_DIR"]
+THREADS = config["THREADS"]
+LOG_DIR = f"{OUTDIR}/logs"
+
+REF_DIR = config["reference"]["GENOME_DIR"]
+REF_FASTA = config["reference"]["GENOME_FASTA"]
+TARGET_BED = config["reference"]["TARGET_BED"]
+
+SNPEFF_PATH = config["reference"]["SNPEFF_PATH"]
+SNPEFF_DATA = config["reference"]["SNPEFF_DATA"]
+SNPEFF_GENOME = config["reference"]["SNPEFF_GENOME"]
+
+
+# Inclusão de regras
+include: "rules/data.smk"
+include: "rules/qc.smk"
+include: "rules/alignment.smk"
+include: "rules/variant_calling.smk"
+include: "rules/annotation.smk"
+
+rule all:
+    input:
+        # FastQC
+        expand(f"{OUTDIR}/qc/fastqc/{{sample}}_R1_001_fastqc.html", sample=SAMPLES),
+        expand(f"{OUTDIR}/qc/fastqc/{{sample}}_R2_001_fastqc.html", sample=SAMPLES),
+        # Fastp
+        expand(f"{OUTDIR}/qc/trimmed/{{sample}}_R1_001.fastq.gz", sample=SAMPLES),
+        expand(f"{OUTDIR}/qc/trimmed/{{sample}}_R2_001.fastq.gz", sample=SAMPLES),
+
+        # BAM
+        expand(f"{OUTDIR}/bwa/alignment/{{sample}}.bam", sample=SAMPLES),
+        expand(f"{OUTDIR}/bwa/marked/{{sample}}.bam", sample=SAMPLES),
+        expand(f"{OUTDIR}/bwa/marked/{{sample}}.bam.bai", sample=SAMPLES),
+        
+        # VCF
+        expand(f"{OUTDIR}/freebayes/variants/{{sample}}.vcf", sample=SAMPLES),
+        expand(f"{OUTDIR}/freebayes/variants/{{sample}}.filtered.vcf", sample=SAMPLES),
+        expand(f"{OUTDIR}/freebayes/variants/{{sample}}.filtered.norm.vcf", sample=SAMPLES),
+        
+        # SNPEFF
+        expand(f"{OUTDIR}/freebayes/variants/{{sample}}.filtered.norm.snps.vcf.gz", sample=SAMPLES),
+        expand(f"{OUTDIR}/freebayes/variants/{{sample}}.filtered.norm.indels.vcf.gz", sample=SAMPLES),
+        expand(f"{OUTDIR}/annotation/{{sample}}.snps.ann.vcf.gz", sample=SAMPLES),
+        expand(f"{OUTDIR}/annotation/{{sample}}.indels.ann.vcf.gz", sample=SAMPLES)
